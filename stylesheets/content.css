@@ -93,6 +93,11 @@
   99%{ background-position:  -302px -604px;}
   100%{ background-position:  -453px -604px;}
 }
-text {
-  
+.text {
+  overflow: hidden;/*Скрытие текста под страницей*/
+  white-space: nowrap; /*чтобы не переносились слова*/
+  animation: text 15s linear infinite;
+}
+.text:hover {
+  animation-play-state: paused;
 }
