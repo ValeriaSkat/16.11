@@ -1,9 +1,0 @@
-.mario {
-  width: 68px;
-  height: -68px;
-  display: block;
-  position: relative;
-  background: url('C:/Users/MSI/Desktop/Коды/16.11/img/mario-walk-n-jump-68.png');
-/*  background-position: -68px top;*/;
-  animation: walk .4s steps(1)  infinite;
-}
