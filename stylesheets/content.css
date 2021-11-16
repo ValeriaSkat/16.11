@@ -41,12 +41,17 @@
     left: 100%;
   }
 }
-.blast151 {
-  width: 158px;
-  height: 158px;
+.blast {
+  width: 151px;
+  height: 151px;
   display: block;
-  position: relative;
+  position: absolute;
   background: url('../images/blast-151.png');
 /*  background-position: -68px top;*/;
-  animation: walk .9s steps(1)  infinite;
+  left: 50%;
+  animation: blast 1s steps(1)  infinite;
+  animation-play-state: paused; /*При наведении остановка*/
+}
+.blast:hover {
+  animation-play-state: running;
 }
