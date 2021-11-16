@@ -13,3 +13,11 @@
   75%{ background-position:  -136px top;}
   100%{ background-position:  -204px top;}
 }
+.path {
+  width: 68px;
+  height: 68px;
+  display: block;
+  position: absolute;
+  top: 200px;
+  animation: path 3s linear infinite;
+}
