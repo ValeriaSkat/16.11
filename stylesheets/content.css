@@ -21,6 +21,18 @@
   top: 200px;
   animation: path 3s linear infinite;
 }
+.mario2 {
+  width: 68px;
+  height: 68px;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  display: block;
+  position: absolute;
+  background: url('../images/mario-walk-n-jump-68.png');
+/*  background-position: -68px top;*/;
+  animation: jump 5s steps(1)  infinite;
+}
 @keyframes path{
   0%{
     left: -68px; top;
@@ -40,6 +52,13 @@
   100%{
     left: 100%;
   }
+}
+@keyframes jump {
+  0%{ opacity: 0;}
+  49%{ background-position:  -272px; top; opacity: 1;}
+  50%{ background-position:  -340px; top; opacity: 1;}
+  51%{ background-position:  -340px; top; opacity: 1;}
+  100%{ opacity: 0;}
 }
 .blast {
   width: 151px;
