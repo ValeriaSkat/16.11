@@ -55,7 +55,21 @@
 .blast:hover {
   animation-play-state: running;
 }
-@@keyframes blast {
-  
-
+@keyframes blast {
+  0%{ background-position:   0px 0px;}
+  3%{ background-position:  -151px 0px;}
+  6%{ background-position:  -302px 0px;}
+  9%{ background-position:  -204px 0px;}
+  12%{ background-position:   -453px 0px;}
+  15%{ background-position:  -604px 0px;}
+  18%{ background-position:  -755px 0px;}
+  21%{ background-position:  -px top;}
+  24%{ background-position:   0px 0px;}
+  27%{ background-position:  -px top;}
+  30%{ background-position:  -px top;}
+  33%{ background-position:  -px top;}
+  36%{ background-position:   0px top;}
+  39%{ background-position:  -px top;}
+  42%{ background-position:  -px top;}
+  45%{ background-position:  -px top;}
 }
