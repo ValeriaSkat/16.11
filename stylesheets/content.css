@@ -97,6 +97,9 @@
   overflow: hidden;/*Скрытие текста под страницей*/
   white-space: nowrap; /*чтобы не переносились слова*/
   animation: text 30s linear infinite;
+  color:#DC143C;
+  font-size: 50px;
+  text-shadow:#cccccc -17px -8px 6px;
 }
 .text:hover {
   animation-play-state: paused;
