@@ -96,8 +96,16 @@
 .text {
   overflow: hidden;/*Скрытие текста под страницей*/
   white-space: nowrap; /*чтобы не переносились слова*/
-  animation: text 15s linear infinite;
+  animation: text 30s linear infinite;
 }
 .text:hover {
   animation-play-state: paused;
+}
+@keyframes text {
+  from{
+    text-indent: 100%
+  }
+  to{
+    text-indent: -100%
+  }
 }
