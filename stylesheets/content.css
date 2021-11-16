@@ -21,7 +21,7 @@
   top: 200px;
   animation: path 3s linear infinite;
 }
-@keyframes identifier path{
+@keyframes path{
   0%{
     left: -68px; top;
   }
