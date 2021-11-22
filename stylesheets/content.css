@@ -132,10 +132,22 @@
   }
 }
 .imogi {
+  top: 500px;
   width: 228px;
   height: 228px;
   display: block;
   position: relative;
   background: url('../images/Group 1.png');
 /*  background-position: -68px top;*/;
+animation: imogi 5s steps(1)  infinite;
+}
+.imogi:hover {
+  animation-play-state: running;
+}
+@keyframes imogi {
+  0%{ background-position:   0px 0px;}
+  3%{ background-position:  -151px 0px;}
+  6%{ background-position:  -302px 0px;}
+  9%{ background-position:  -453px 0px;}
+  12%{ background-position:  -604px 0px;}
 }
