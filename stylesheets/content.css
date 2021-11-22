@@ -131,3 +131,11 @@
     text-indent: -100%
   }
 }
+.imogi {
+  width: 228px;
+  height: 228px;
+  display: block;
+  position: relative;
+  background: url('../images/Group 1.png');
+/*  background-position: -68px top;*/;
+}
