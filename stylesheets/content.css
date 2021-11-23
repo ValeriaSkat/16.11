@@ -165,3 +165,20 @@ animation: imogi2 1s steps(1)  infinite;
   60%{ background-position:  -912px 0px;}
   100%{ background-position:  -1140px 0px;}
 }
+.imogi3 {
+  top: 500px;
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: relative;
+  background: url('../images/Group 2.png');
+/*  background-position: -68px top;*/;
+animation: imogi3 1s steps(1)  infinite;
+}
+@keyframes imogi3 {
+  0%{ background-position:   0px 0px;}
+  20%{ background-position:  -456px 0px;}
+  40%{ background-position:  -684px 0px;}
+  60%{ background-position:  -912px 0px;}
+  100%{ background-position:  -1140px 0px;}
+}
