@@ -150,8 +150,8 @@ animation: imogi 1s steps(1)  infinite;
 }
 .imogi2 {
   top: 500px;
-  width: 228px;
-  height: 228px;
+  width: 160px;
+  height: 160px;
   display: block;
   position: relative;
   background: url('../images/Group 2.png');
