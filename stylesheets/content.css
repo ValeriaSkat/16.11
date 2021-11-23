@@ -139,15 +139,12 @@
   position: relative;
   background: url('../images/Group 1.png');
 /*  background-position: -68px top;*/;
-animation: imogi 5s steps(1)  infinite;
-}
-.imogi:hover {
-  animation-play-state: running;
+animation: imogi 1s steps(1)  infinite;
 }
 @keyframes imogi {
   0%{ background-position:   0px 0px;}
-  3%{ background-position:  -151px 0px;}
-  6%{ background-position:  -302px 0px;}
-  9%{ background-position:  -453px 0px;}
-  12%{ background-position:  -604px 0px;}
+  20%{ background-position:  -456px 0px;}
+  40%{ background-position:  -684px 0px;}
+  60%{ background-position:  -912px 0px;}
+  100%{ background-position:  -1140px 0px;}
 }
